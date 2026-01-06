@@ -56,17 +56,9 @@ Evaluation → Deployment
 
 ### Models Used
 
--   XGBoost (Best Model -- 91.81% Accuracy)
+-   XGBoost 
 -   LightGBM
 -   Random Forest
-
-------------------------------------------------------------------------
-
-## 📈 Results
-
--   Best Accuracy: **91.81% (XGBoost)**
--   Average Error: ₹12.45 Lakhs
--   Key Features: Location, sqft, property type
 
 ------------------------------------------------------------------------
 
