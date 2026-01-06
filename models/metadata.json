@@ -1,0 +1,35 @@
+{
+    "best_model": "XGBoost",
+    "best_accuracy": 91.80502903587954,
+    "all_results": {
+        "XGBoost": {
+            "accuracy": 91.80502903587954,
+            "r2": 0.9180502903587954,
+            "mae": 3763360.4171875,
+            "rmse": 8065747.542702736
+        },
+        "LightGBM": {
+            "accuracy": 86.31427349681711,
+            "r2": 0.8631427349681711,
+            "mae": 6030648.645466118,
+            "rmse": 10423290.535201905
+        },
+        "RandomForest": {
+            "accuracy": 86.19369500487315,
+            "r2": 0.8619369500487315,
+            "mae": 6137189.506373736,
+            "rmse": 10469107.191680953
+        }
+    },
+    "features": [
+        "location",
+        "sqft",
+        "beds",
+        "baths",
+        "parking",
+        "furnishing_status",
+        "property_type",
+        "age_of_property"
+    ],
+    "timestamp": "2026-01-06 12:03:46"
+}
