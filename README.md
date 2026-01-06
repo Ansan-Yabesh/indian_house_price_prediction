@@ -1,6 +1,6 @@
-# 🏠 Indian House Price Prediction - Machine Learning Project
+# Indian House Price Prediction - Machine Learning Project
 
-## 📋 Project Overview
+## -> Project Overview
 
 A comprehensive machine learning project that predicts house prices
 across major Indian cities using ensemble algorithms. This project
@@ -9,7 +9,7 @@ deployment.
 
 ------------------------------------------------------------------------
 
-## 🎯 Problem Statement
+## -> Problem Statement
 
 ### Business Context
 
@@ -27,7 +27,7 @@ and sellers.
 
 ------------------------------------------------------------------------
 
-## 📊 Dataset Description
+## -> Dataset Description
 
 **Total Samples:** 800\
 **Cities Covered:** 12 Indian cities\
@@ -47,7 +47,7 @@ and sellers.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technical Approach
+## -> Technical Approach
 
 ### ML Pipeline
 
@@ -56,21 +56,13 @@ Evaluation → Deployment
 
 ### Models Used
 
--   XGBoost (Best Model -- 91.81% Accuracy)
+-   XGBoost 
 -   LightGBM
 -   Random Forest
 
 ------------------------------------------------------------------------
 
-## 📈 Results
-
--   Best Accuracy: **91.81% (XGBoost)**
--   Average Error: ₹12.45 Lakhs
--   Key Features: Location, sqft, property type
-
-------------------------------------------------------------------------
-
-## 🚀 Deployment
+## -> Deployment
 
 -   Backend: Scikit-learn models (.pkl)
 -   Frontend: Streamlit Web App
@@ -78,7 +70,7 @@ Evaluation → Deployment
 
 ------------------------------------------------------------------------
 
-## 📝 Conclusion
+## -> Conclusion
 
 This project demonstrates how ensemble machine learning models can
 accurately predict Indian house prices using synthetic data and strong
