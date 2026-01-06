@@ -1,8 +1,3 @@
-"""
-High-Accuracy House Price Prediction Model 
-Using XGBoost, LightGBM, and Random Forest
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,7 +16,7 @@ import sys
 import logging
 logging.getLogger('lightgbm').setLevel(logging.ERROR)
 
-# Import 3 best models
+# Import models
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
 from lightgbm import LGBMRegressor

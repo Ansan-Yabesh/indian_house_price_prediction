@@ -216,11 +216,6 @@ if __name__ == "__main__":
     print("\n" + "="*50)
     print("✅ Dataset generation complete!")
     print("📁 File saved as: indian_housing_prices.csv")
-    print("🎯 Next steps:")
-    print("   1. Load this CSV for EDA")
-    print("   2. Preprocess categorical variables")
-    print("   3. Build your ML model")
-    print("   4. Create Streamlit app")
     print("="*50)
     
     # Display first few rows

@@ -1,7 +1,3 @@
-"""
-House Price Dataset - Analysis & Preprocessing
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -464,10 +460,6 @@ def main():
         print("\n" + "="*60)
         print("✅ ANALYSIS & PREPROCESSING COMPLETED SUCCESSFULLY!")
         print("="*60)
-        print("\n🎯 Next steps:")
-        print("   1. Use 'processed_housing_data.csv' for ML modeling")
-        print("   2. Use 'scaler.pkl' to scale new data")
-        print("   3. Check the generated PNG files for EDA insights")
         
     except FileNotFoundError:
         print(f"\n❌ Error: File 'indian_housing_prices.csv' not found!")
